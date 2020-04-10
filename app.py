@@ -1,12 +1,6 @@
-from cumprimentar import Cumprimentacoes
-from informar_numero import InformarNumeros
-from menu import MenuOpcoes
-from operacao_matematica import OperacoesBasicas
-from executar_operacao import ExecutarOperacoes
+from menu import ExecutarMenuOperacoes
 
 
-print(Cumprimentacoes().saudacao())
+print("Seja bem vindo ao PythonCalculator, escolha uma das opções abaixo!\n")
 
-print(MenuOpcoes().menu_operacoes_basicas())
-
-print(ExecutarOperacoes().executar_operacao_basica())
+ExecutarMenuOperacoes().apresentar_resultado()
